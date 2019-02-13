@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
     }
     private void initFruits(){
         for(int i=0;i<2;i++){
+            Fruit adao1=new Fruit("adao1",R.drawable.adao1);
+            fruitList.add(adao1);
+            Fruit adao2=new Fruit("adao2",R.drawable.adao2);
+            fruitList.add(adao2);
             Fruit dahu=new Fruit("Dahu",R.drawable.dahu);
             fruitList.add(dahu);
             Fruit dahu01=new Fruit("Dahu01",R.drawable.dahu01);
